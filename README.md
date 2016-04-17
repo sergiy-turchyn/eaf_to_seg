@@ -16,4 +16,4 @@ It overwrites the output file in the current directory if it exists.
 
 Please contribute by improving the template. Just ensure that your changes are reflected in the eaf2seg conversion script.
 
-If you want to make major changes, please just fork the template and the script. That way you create a new template-filter pair.
+If you want to make major changes, please fork the template and the script. That way you create a new template-filter pair.
