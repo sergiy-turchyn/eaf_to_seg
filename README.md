@@ -1,7 +1,7 @@
 # eaf_to_seg
 This script converts Elan .eaf annotations to NewsScape .seg files.
 
-It currently supports the http://vrnewsscape.ucla.edu/dropbox/Redhen-04-single.etf template.
+It currently supports the https://github.com/RedHenLab/Elan-tools/blob/master/Redhen-04-single.etf template.
 
 Usage:
 
@@ -13,3 +13,7 @@ Example:
 
 The script reads NewsScape's output.seg file from the sweep directory.
 It overwrites the output file in the current directory if it exists.
+
+Please contribute by improving the template. Just ensure that your changes are reflected in the eaf2seg conversion script.
+
+If you want to make major changes, please just fork the template and the script. That way you create a new template-filter pair.
