@@ -250,7 +250,7 @@ def eafToSeg(inputFilename, outputFilename, primaryTag='GES_03', sourceProgram=s
 if __name__ == '__main__':
 	if (len(sys.argv)-1!=2) or ( sys.argv[1] == "-h" ):
 		print "".join([ "\n","\t","This script converts Elan .eaf annotations to NewsScape .seg files." ])
-		print "".join([ "\n","\t","It currently supports the http://vrnewsscape.ucla.edu/dropbox/Redhen-04-single.etf template." ])
+		print "".join([ "\n","\t","It currently supports the https://github.com/RedHenLab/Elan-tools/blob/master/Redhen-04-single.etf template." ])
 		print "".join([ "\n","\t","Usage:","\n" ])
 		print "".join([ "\t","\t",sourceProgram," input.eaf output.seg" ])
 		print "".join([ "\n","\t","Example:","\n" ])
